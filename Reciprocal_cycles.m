@@ -1,0 +1,1 @@
+Do[Print[i, ",", Length[RealDigits[1/i][[1, -1]]]], {i, 1000}]

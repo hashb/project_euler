@@ -1,0 +1,105 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3003,         95]
+NotebookOptionsPosition[      2616,         77]
+NotebookOutlinePosition[      2958,         92]
+CellTagsIndexPosition[      2915,         89]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Reduce", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"1000000000000", " ", "<", "t", "<", 
+      RowBox[{"2", "*", 
+       RowBox[{"10", "^", "12"}]}]}], "&&", " ", 
+     RowBox[{
+      RowBox[{"x", "*", 
+       RowBox[{"(", 
+        RowBox[{"x", "-", "1"}], ")"}]}], " ", "\[Equal]", " ", 
+      RowBox[{"0.5", "*", "t", 
+       RowBox[{"(", 
+        RowBox[{"t", "-", "1"}], ")"}]}]}]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "t"}], "}"}], ",", "Integers"}], "]"}], " "}]], "Input",
+ CellChangeTimes->{{3.619673415893597*^9, 3.619673443594961*^9}, {
+  3.6196735204939427`*^9, 3.619673529473898*^9}, {3.619673670801916*^9, 
+  3.6196736916217194`*^9}, {3.6196737517588696`*^9, 3.619673813835022*^9}, {
+  3.619673859395232*^9, 3.6196738694879203`*^9}, {3.6196745624256625`*^9, 
+  3.6196745769733047`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Reduce", "::", "ratnz"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Reduce was unable to solve the system with inexact \
+coefficients. The answer was obtained by solving a corresponding exact system \
+and numericizing the result. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/Reduce/ratnz\\\", ButtonNote -> \
+\\\"Reduce::ratnz\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.619673790219367*^9, 3.6196738249543953`*^9, 
+  3.6196738775052357`*^9, 3.6196745789526176`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"x", "\[Equal]", 
+     RowBox[{"-", "756872327472"}]}], "&&", 
+    RowBox[{"t", "\[Equal]", "1070379110497"}]}], ")"}], "||", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"x", "\[Equal]", "756872327473"}], "&&", 
+    RowBox[{"t", "\[Equal]", "1070379110497"}]}], ")"}]}]], "Output",
+ CellChangeTimes->{3.6196737902253695`*^9, 3.619673824959399*^9, 
+  3.61967387751124*^9, 3.619674578955618*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.6196745444197226`*^9, 3.619674546615179*^9}}]
+},
+WindowSize->{707, 514},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 848, 21, 52, "Input"],
+Cell[1430, 45, 616, 12, 56, "Message"],
+Cell[2049, 59, 454, 12, 84, "Output"]
+}, Open  ]],
+Cell[2518, 74, 94, 1, 31, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
